@@ -33,6 +33,7 @@
             android:layout_width="@android:dimen/app_icon_size"
             android:layout_height="@android:dimen/app_icon_size"
             android:layout_rowSpan="2"
+            android:paddingTop="16dip"
             android:scaleType="centerInside"
             android:src="@drawable/ic_file_download" />
 
@@ -41,6 +42,7 @@
             android:layout_marginEnd="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="16dip"
             android:textAppearance="@android:style/TextAppearance.Material.Headline"
             android:singleLine="true"
             android:text="@string/app_name_unknown"
@@ -61,7 +63,8 @@
             android:background="?android:attr/colorPrimary"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:paddingStart="16dp"
-            android:paddingEnd="16dp" />
+            android:paddingEnd="16dp"
+            android:paddingTop="16dip" />
     </LinearLayout>
 
     <ScrollView android:layout_width="match_parent"
